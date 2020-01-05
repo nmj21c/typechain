@@ -4,5 +4,10 @@
   "description": "learning typescript and blockchain",
   "main": "index.js",
   "author": "Jonghyun <nmj21c@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {},
+  "scripts": {
+    "start": "node index.js"
+    , "prestart": "tsc"
+  }
 }
