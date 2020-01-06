@@ -3,7 +3,9 @@
         "module": "commonjs"
         , "target": "ES2015"
         , "sourceMap": true
+        , "outDir": "dist"
+        , "moduleResolution": "node"
     }
-    , "include": ["index.ts"]
+    , "include": ["src/**/*"]
     , "exclude": ["node_modules"]
 }
